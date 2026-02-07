@@ -1,0 +1,22 @@
+/* Main Styles */
+
+:root {
+    --primary: #E07A5F;
+    --primary-hover: #d0684e;
+    --dark: #333333;
+    --off-white: #f9f9f9;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}

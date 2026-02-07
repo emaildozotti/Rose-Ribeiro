@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rose Ribeiro | Terapia & Maturidade</title>
+
+  <!-- Google Fonts: Montserrat (Headings) & Lato (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#E07A5F', // Terracotta
+            primaryHover: '#d0684e',
+            dark: '#333333',
+            offWhite: '#f9f9f9',
+            lightGray: '#f0f0f0',
+          },
+          fontFamily: {
+            sans: ['Lato', 'sans-serif'],
+            heading: ['Montserrat', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <style>
+    /* Custom Scrollbar for a premium feel */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #f9f9f9;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #E07A5F;
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #d0684e;
+    }
+
+    /* Wistia Video Styling */
+    wistia-player[media-id='6pj5uv62ku']:not(:defined) {
+      background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/6pj5uv62ku/swatch');
+      display: block;
+      filter: blur(5px);
+      padding-top: 133.33%;
+    }
+  </style>
+
+  <!-- Wistia Scripts -->
+  <script src="https://fast.wistia.com/player.js" async></script>
+  <script src="https://fast.wistia.com/embed/6pj5uv62ku.js" async type="module"></script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+
+<body class="bg-offWhite text-dark antialiased overflow-x-hidden">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+
+</html>
