@@ -37,7 +37,7 @@ const VideoSection: React.FC<VideoSectionProps> = ({ id }) => {
         </div>
 
         <div className="mt-8">
-          <p className="text-sm text-gray-400 italic font-light">
+          <p className="text-sm text-gray-600 italic font-light">
             Toque no play para ouvir o que a Rose tem a te dizer.
           </p>
         </div>

@@ -58,7 +58,7 @@ const FAQ: React.FC<FAQProps> = ({ id, nextSectionId }) => {
                 className={`transition-all duration-300 ease-in-out overflow-hidden ${openIndex === index ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
                   }`}
               >
-                <div className="px-6 pb-6 text-gray-600 font-sans font-light leading-relaxed">
+                <div className="px-6 pb-6 text-gray-800 font-sans font-light leading-relaxed">
                   {item.a}
                 </div>
               </div>

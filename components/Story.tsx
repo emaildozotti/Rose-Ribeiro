@@ -29,8 +29,8 @@ const Story: React.FC<StoryProps> = ({ id }) => {
 
               <div className="relative rounded-2xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.1)] aspect-[4/5]">
                 <img
-                  src="https://picsum.photos/600/750"
-                  alt="Rose Ribeiro Casual"
+                  src="https://i.pinimg.com/1200x/31/d9/b1/31d9b100c3a80947dcc18da7041a12fe.jpg"
+                  alt="A Travessia"
                   className="object-cover w-full h-full hover:scale-105 transition-transform duration-1000"
                 />
                 {/* Subtle overlay gradient */}
@@ -57,9 +57,9 @@ const Story: React.FC<StoryProps> = ({ id }) => {
                 {CONTENT.connection.title}
               </h2>
 
-              <div className="space-y-8 text-gray-600 font-sans text-lg md:text-xl font-light leading-relaxed text-left">
+              <div className="space-y-8 text-gray-800 font-sans text-lg md:text-xl font-light leading-relaxed text-left">
                 {/* Individual paragraphs for better control */}
-                <p className="border-l-2 border-primary/30 pl-6 italic text-gray-500">
+                <p className="border-l-2 border-primary/30 pl-6 italic text-gray-700">
                   {CONTENT.connection.body[0]}
                 </p>
 
@@ -82,7 +82,7 @@ const Story: React.FC<StoryProps> = ({ id }) => {
                   {CONTENT.connection.body[6]}
                 </p>
 
-                <p className="text-gray-700 bg-primary/5 p-6 rounded-lg border-l-4 border-primary">
+                <p className="text-gray-900 bg-primary/5 p-6 rounded-lg border-l-4 border-primary">
                   {CONTENT.connection.body[7]}
                 </p>
               </div>

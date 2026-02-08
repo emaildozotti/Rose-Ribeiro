@@ -22,7 +22,7 @@ const Method: React.FC<MethodProps> = ({ id }) => {
           <p
             data-aos="fade-up"
             data-aos-delay="100"
-            className="text-lg text-gray-600 font-light"
+            className="text-lg text-gray-800 font-light"
           >
             {CONTENT.method.intro}
           </p>
@@ -44,7 +44,7 @@ const Method: React.FC<MethodProps> = ({ id }) => {
                 <h3 className="font-heading font-semibold text-xl mb-4 text-dark">
                   {pillar.title}
                 </h3>
-                <p className="font-sans text-gray-600 leading-relaxed">
+                <p className="font-sans text-gray-800 leading-relaxed">
                   {pillar.desc}
                 </p>
               </div>

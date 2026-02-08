@@ -2,7 +2,7 @@ export const CONTENT = {
   hero: {
     headline: "Do caos emocional à ordem interior: recupere a autoria da sua própria história.",
     subheadline: "Acolher sem anestesiar. Confrontar sem ferir. Um espaço seguro para mulheres que decidiram parar de sobreviver e começar a amadurecer.",
-    cta: "QUERO AGENDAR MINHA TRIAGEM",
+    cta: "AGENDAR MEU HORÁRIO!",
     subCta: "Atendimento 100% Online e Sigiloso"
   },
   mirror: {
@@ -37,7 +37,7 @@ export const CONTENT = {
       "Eu sei exatamente como é construir uma armadura para se proteger.",
       "Cresci amadurecendo antes do tempo, aprendendo que \"segurar o mundo\" era a única forma de me sentir segura.",
       "Mas a vida, em sua sabedoria (e com a permissão de Deus), nos convida a crescer pela dor ou pelo amor.",
-      "Há alguns anos, enfrentei o meu próprio deserto: uma crise conjugal profunda, a quebra de confiança e o medo paralisante do futuro.",
+      "Há alguns anos enfrentei meu próprio deserto, e o medo paralisante do futuro",
       "Naquele momento, eu tive uma escolha:",
       "Me vitimizar e culpar o outro... ou assumir a responsabilidade pela minha reconstrução.",
       "Eu escolhi o caminho da maturidade. E é esse caminho que eu percorro hoje com minhas pacientes.",
@@ -54,7 +54,7 @@ export const CONTENT = {
       },
       {
         title: "2. Espiritualidade & Fé",
-        desc: "Não como fuga, mas como alicerce. Entender que sem Deus não fará a parte que cabe a você."
+        desc: "Não como fuga, mas como alicerce. Integrar a fé ao processo terapêutico para fortalecer o seu amadurecimento e a sua capacidade de resposta diante da vida."
       },
       {
         title: "3. Responsabilidade Radical",
@@ -75,7 +75,7 @@ export const CONTENT = {
       "Você quer apenas desabafar sem se comprometer com a mudança.",
       "Você não está disposta a investir tempo e recursos na sua saúde."
     ],
-    cta: "ESTOU PRONTA PARA O PROCESSO"
+    cta: "AGENDAR MEU HORÁRIO!"
   },
   bio: {
     title: "Quem é Rose Ribeiro?",
@@ -102,7 +102,7 @@ export const CONTENT = {
         desc: "Começamos sua jornada de amadurecimento rumo à ordem interior e à autoria da sua história."
       }
     ],
-    cta: "QUERO AGENDAR MEU HORÁRIO"
+    cta: "AGENDAR MEU HORÁRIO!"
   },
   faq: {
     title: "Perguntas Frequentes",
@@ -121,7 +121,7 @@ export const CONTENT = {
       },
       {
         q: "Aceita convênio?",
-        a: "Trabalho exclusivamente com atendimentos particulares para garantir a liberdade e a personalização do seu processo, mas forneço recibo para reembolso se seu plano permitir."
+        a: "Trabalho exclusivamente com atendimentos particulares para garantir a liberdade e a personalização do seu processo."
       }
     ]
   },

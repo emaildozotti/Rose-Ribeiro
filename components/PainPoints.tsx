@@ -18,7 +18,7 @@ const PainPoints: React.FC<PainPointsProps> = ({ id }) => {
           </h2>
           <div className="space-y-4">
             {CONTENT.mirror.body.map((text, idx) => (
-              <p key={idx} className="text-lg md:text-xl font-light leading-relaxed text-gray-700">
+              <p key={idx} className="text-lg md:text-xl font-light leading-relaxed text-gray-800">
                 {text}
               </p>
             ))}
@@ -36,7 +36,7 @@ const PainPoints: React.FC<PainPointsProps> = ({ id }) => {
               <h3 className="font-heading font-semibold text-lg mb-3 text-dark">
                 {point.title}
               </h3>
-              <p className="font-sans text-gray-600 leading-relaxed">
+              <p className="font-sans text-gray-800 leading-relaxed">
                 {point.desc}
               </p>
             </div>

@@ -41,7 +41,7 @@ const Filter: React.FC<FilterProps> = ({ id, nextSectionId }) => {
               {CONTENT.filter.yes.map((item, idx) => (
                 <li key={idx} className="flex items-start gap-4">
                   <CheckCircle2 className="text-green-600 flex-shrink-0 mt-1" size={24} />
-                  <span className="text-gray-700 font-sans leading-relaxed">{item}</span>
+                  <span className="text-gray-800 font-sans leading-relaxed">{item}</span>
                 </li>
               ))}
             </ul>
@@ -59,7 +59,7 @@ const Filter: React.FC<FilterProps> = ({ id, nextSectionId }) => {
               {CONTENT.filter.no.map((item, idx) => (
                 <li key={idx} className="flex items-start gap-4">
                   <XCircle className="text-red-500 flex-shrink-0 mt-1" size={24} />
-                  <span className="text-gray-700 font-sans leading-relaxed">{item}</span>
+                  <span className="text-gray-800 font-sans leading-relaxed">{item}</span>
                 </li>
               ))}
             </ul>

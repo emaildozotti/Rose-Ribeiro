@@ -35,7 +35,7 @@ const Hero: React.FC<HeroProps> = ({ id, nextSectionId }) => {
                 {CONTENT.hero.headline}
               </h1>
 
-              <p className="font-sans text-lg md:text-xl font-light mb-10 leading-relaxed text-gray-600 max-w-xl">
+              <p className="font-sans text-lg md:text-xl font-light mb-10 leading-relaxed text-gray-800 max-w-xl">
                 {CONTENT.hero.subheadline}
               </p>
 
@@ -44,7 +44,7 @@ const Hero: React.FC<HeroProps> = ({ id, nextSectionId }) => {
                   <Button onClick={scrollToNext} className="w-full sm:min-w-[280px]">
                     {CONTENT.hero.cta}
                   </Button>
-                  <p className="mt-4 text-xs md:text-sm text-gray-400 font-light tracking-wide text-center md:text-left">
+                  <p className="mt-4 text-xs md:text-sm text-gray-600 font-light tracking-wide text-center md:text-left">
                     {CONTENT.hero.subCta}
                   </p>
                 </div>
@@ -54,16 +54,12 @@ const Hero: React.FC<HeroProps> = ({ id, nextSectionId }) => {
 
           {/* Right Column: Hero Image Placeholder */}
           <div className="w-full md:w-1/2 order-1 md:order-2" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
-            <div className="relative mx-auto w-full max-w-md lg:max-w-lg aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl bg-gray-200 border-8 border-white">
-              {/* Placeholder showing where the expert's photo will be */}
-              <div className="absolute inset-0 flex flex-col items-center justify-center text-gray-400 p-8 text-center bg-gradient-to-br from-gray-100 to-gray-300">
-                <svg className="w-20 h-20 mb-4 opacity-20" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-                </svg>
-                <p className="font-heading font-medium text-lg text-gray-500 uppercase tracking-widest">Foto da Expert</p>
-                <p className="text-sm mt-2 opacity-60">A imagem da Rose Ribeiro será posicionada aqui</p>
-              </div>
-
+            <div className="relative mx-auto w-full max-w-md lg:max-w-lg aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl border-8 border-white bg-gray-100">
+              <img
+                src="https://i.pinimg.com/736x/c1/c9/04/c1c904661f90f48ceeef167f3336cb75.jpg"
+                alt="Luz e Ordem Interior"
+                className="w-full h-full object-cover"
+              />
               {/* Overlay highlight for premium look */}
               <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
             </div>

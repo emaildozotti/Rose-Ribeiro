@@ -29,7 +29,7 @@ const Steps: React.FC<StepsProps> = ({ id, nextSectionId }) => {
         </h2>
         <p
           data-aos="fade-up"
-          className="text-gray-600 font-light text-lg mb-16 max-w-2xl mx-auto"
+          className="text-gray-800 font-light text-lg mb-16 max-w-2xl mx-auto"
         >
           {CONTENT.steps.intro}
         </p>
@@ -48,7 +48,7 @@ const Steps: React.FC<StepsProps> = ({ id, nextSectionId }) => {
               <h3 className="font-heading font-bold text-lg text-dark mb-4 uppercase tracking-wide">
                 {step.title}
               </h3>
-              <p className="font-sans text-gray-500 text-sm md:text-base leading-relaxed">
+              <p className="font-sans text-gray-700 text-sm md:text-base leading-relaxed">
                 {step.desc}
               </p>
 

@@ -8,14 +8,14 @@ const Footer: React.FC = () => {
         <p className="font-heading text-xl md:text-2xl font-light italic mb-8 text-primary">
           {CONTENT.footer.quote}
         </p>
-        
+
         <div className="w-12 h-1 bg-primary mx-auto mb-8 opacity-50"></div>
-        
-        <p className="text-sm text-gray-400 mb-4">
+
+        <p className="text-sm text-gray-200 mb-4">
           {CONTENT.footer.copyright}
         </p>
-        
-        <div className="flex justify-center gap-6 text-xs text-gray-500 uppercase tracking-widest">
+
+        <div className="flex justify-center gap-6 text-xs text-gray-300 uppercase tracking-widest">
           <a href="#" className="hover:text-white transition-colors">Política de Privacidade</a>
           <a href="#" className="hover:text-white transition-colors">Termos de Uso</a>
         </div>

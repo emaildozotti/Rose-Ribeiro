@@ -33,7 +33,7 @@ const CtaSection: React.FC<CtaSectionProps> = ({ id }) => {
                 <p
                     data-aos="fade-up"
                     data-aos-delay="100"
-                    className="text-lg md:text-xl text-gray-300 font-light mb-12 max-w-2xl mx-auto"
+                    className="text-lg md:text-xl text-gray-100 font-light mb-12 max-w-2xl mx-auto"
                 >
                     A maturidade emocional é uma decisão. Toque no botão abaixo para garantir sua vaga e iniciar sua travessia hoje mesmo.
                 </p>
@@ -44,11 +44,11 @@ const CtaSection: React.FC<CtaSectionProps> = ({ id }) => {
                         onClick={handleWhatsAppClick}
                         className="text-lg md:text-xl px-12 py-5 bg-primary hover:bg-primaryHover border-none"
                     >
-                        FALAR COM A ROSE NO WHATSAPP
+                        AGENDAR MEU HORÁRIO!
                     </Button>
                 </div>
 
-                <div className="mt-8 flex flex-col items-center gap-2 text-gray-400 text-sm font-light">
+                <div className="mt-8 flex flex-col items-center gap-2 text-gray-200 text-sm font-light">
                     <span className="flex items-center gap-2">
                         <svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
