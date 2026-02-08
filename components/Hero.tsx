@@ -26,7 +26,7 @@ const Hero: React.FC<HeroProps> = ({ id, nextSectionId }) => {
         <div className="flex flex-col md:flex-row items-center gap-12 lg:gap-20">
 
           {/* Left Column: Text Content */}
-          <div className="w-full md:w-1/2 text-left order-2 md:order-1">
+          <div className="w-full md:w-1/2 text-left order-1">
             <div data-aos="fade-right" data-aos-duration="1000">
               <span className="inline-block px-4 py-1.5 mb-6 text-xs font-bold tracking-widest text-primary uppercase bg-primary/10 rounded-full">
                 Terapia & Maturidade
@@ -53,7 +53,7 @@ const Hero: React.FC<HeroProps> = ({ id, nextSectionId }) => {
           </div>
 
           {/* Right Column: Hero Image Placeholder */}
-          <div className="w-full md:w-1/2 order-1 md:order-2" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
+          <div className="w-full md:w-1/2 order-2 mt-8 md:mt-0" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
             <div className="relative mx-auto w-full max-w-md lg:max-w-lg aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl border-8 border-white bg-gray-100">
               <img
                 src="https://i.pinimg.com/736x/c1/c9/04/c1c904661f90f48ceeef167f3336cb75.jpg"
