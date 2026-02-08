@@ -14,11 +14,13 @@ const Bio: React.FC<BioProps> = ({ id }) => {
           {/* Circular/Rounded Image */}
           <div
             data-aos="zoom-in"
-            className="w-48 h-48 md:w-64 md:h-64 flex-shrink-0 bg-primary/10 rounded-full border-4 border-primary flex items-center justify-center shadow-2xl"
+            className="w-56 h-56 md:w-64 md:h-64 flex-shrink-0"
           >
-            <svg className="w-24 h-24 text-primary opacity-40" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-            </svg>
+            <img
+              src="https://i.imgur.com/pkhqq69.jpeg"
+              alt="Rose Ribeiro"
+              className="w-full h-full object-cover rounded-full border-4 border-primary shadow-2xl"
+            />
           </div>
 
           <div
